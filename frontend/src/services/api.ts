@@ -16,7 +16,8 @@ import {
   ProfileUpdateRequest,
 } from '../types';
 
-const API_BASE = '/api';
+const rawBase = import.meta.env.VITE_API_URL || '';
+const API_BASE = rawBase ? `${rawBase.replace(/\/+$/, '')}/api` : '/api';
 
 export const api = {
   async getDashboardKpis(country?: string): Promise<KpiMetrics> {
