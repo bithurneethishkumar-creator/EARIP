@@ -4,24 +4,39 @@ import sqlite3
 from typing import Dict, Any, List, Optional
 from app.db.supabase_client import get_supabase_client, is_supabase_configured
 
-# Resolve data directory dynamically whether running from project root or backend
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
-DATA_DIR = os.path.join(BASE_DIR, "data")
-CACHE_FILE = os.path.join(DATA_DIR, "processed_analytics.json")
-SQLITE_DB = os.path.join(DATA_DIR, "earip.db")
+def resolve_data_path(filename: str) -> str:
+    search_paths = [
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", filename)),
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", filename)),
+        os.path.abspath(os.path.join(os.getcwd(), "data", filename)),
+        os.path.abspath(os.path.join(os.getcwd(), "backend", "data", filename)),
+    ]
+    for p in search_paths:
+        if os.path.exists(p):
+            return p
+    return search_paths[0]
+
+CACHE_FILE = resolve_data_path("processed_analytics.json")
+SQLITE_DB = resolve_data_path("earip.db")
 
 def get_cached_analytics() -> Dict[str, Any]:
-    if os.path.exists(CACHE_FILE):
-        with open(CACHE_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    # Fallback to local data folder if relative
-    if os.path.exists("data/processed_analytics.json"):
-        with open("data/processed_analytics.json", "r", encoding="utf-8") as f:
-            return json.load(f)
+    for candidate in [
+        CACHE_FILE,
+        resolve_data_path("processed_analytics.json"),
+        "data/processed_analytics.json",
+        "backend/data/processed_analytics.json",
+    ]:
+        if os.path.exists(candidate):
+            try:
+                with open(candidate, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                continue
     return {}
 
 def get_db_connection():
-    conn = sqlite3.connect(SQLITE_DB)
+    db_path = resolve_data_path("earip.db")
+    conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     return conn
 
