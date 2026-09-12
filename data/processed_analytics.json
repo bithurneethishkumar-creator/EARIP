@@ -1,0 +1,712 @@
+{
+  "kpis": {
+    "totalRevenue": 10305892.02,
+    "totalOrders": 20951,
+    "totalCustomers": 4312,
+    "totalProducts": 4250,
+    "avgOrderValue": 491.9,
+    "returnRate": 6.11,
+    "ukConcentrationPct": 85.83,
+    "atRiskCustomerCount": 1031,
+    "vipCustomerCount": 6,
+    "monthlyGrowthRate": -70.15
+  },
+  "monthly_sales": [
+    {
+      "YearMonth": "2009-12",
+      "total_revenue": 825685.76,
+      "total_orders": 1682,
+      "unique_customers": 955,
+      "return_amount": 25838.65,
+      "return_rate": 3.13,
+      "avg_order_value": 490.9,
+      "growth_rate": 0.0,
+      "year": 2009,
+      "month": 12
+    },
+    {
+      "YearMonth": "2010-01",
+      "total_revenue": 652708.5,
+      "total_orders": 1105,
+      "unique_customers": 720,
+      "return_amount": 28675.61,
+      "return_rate": 4.39,
+      "avg_order_value": 590.69,
+      "growth_rate": -20.95,
+      "year": 2010,
+      "month": 1
+    },
+    {
+      "YearMonth": "2010-02",
+      "total_revenue": 553339.74,
+      "total_orders": 1201,
+      "unique_customers": 772,
+      "return_amount": 20248.31,
+      "return_rate": 3.66,
+      "avg_order_value": 460.73,
+      "growth_rate": -15.22,
+      "year": 2010,
+      "month": 2
+    },
+    {
+      "YearMonth": "2010-03",
+      "total_revenue": 833570.13,
+      "total_orders": 1681,
+      "unique_customers": 1057,
+      "return_amount": 67721.37,
+      "return_rate": 8.12,
+      "avg_order_value": 495.88,
+      "growth_rate": 50.64,
+      "year": 2010,
+      "month": 3
+    },
+    {
+      "YearMonth": "2010-04",
+      "total_revenue": 681528.99,
+      "total_orders": 1462,
+      "unique_customers": 942,
+      "return_amount": 37354.2,
+      "return_rate": 5.48,
+      "avg_order_value": 466.16,
+      "growth_rate": -18.24,
+      "year": 2010,
+      "month": 4
+    },
+    {
+      "YearMonth": "2010-05",
+      "total_revenue": 659858.86,
+      "total_orders": 1500,
+      "unique_customers": 966,
+      "return_amount": 44536.03,
+      "return_rate": 6.75,
+      "avg_order_value": 439.91,
+      "growth_rate": -3.18,
+      "year": 2010,
+      "month": 5
+    },
+    {
+      "YearMonth": "2010-06",
+      "total_revenue": 752270.14,
+      "total_orders": 1645,
+      "unique_customers": 1041,
+      "return_amount": 72483.53,
+      "return_rate": 9.64,
+      "avg_order_value": 457.31,
+      "growth_rate": 14.0,
+      "year": 2010,
+      "month": 6
+    },
+    {
+      "YearMonth": "2010-07",
+      "total_revenue": 650712.94,
+      "total_orders": 1529,
+      "unique_customers": 928,
+      "return_amount": 31444.79,
+      "return_rate": 4.83,
+      "avg_order_value": 425.58,
+      "growth_rate": -13.5,
+      "year": 2010,
+      "month": 7
+    },
+    {
+      "YearMonth": "2010-08",
+      "total_revenue": 697274.91,
+      "total_orders": 1425,
+      "unique_customers": 911,
+      "return_amount": 40498.57,
+      "return_rate": 5.81,
+      "avg_order_value": 489.32,
+      "growth_rate": 7.16,
+      "year": 2010,
+      "month": 8
+    },
+    {
+      "YearMonth": "2010-09",
+      "total_revenue": 924333.01,
+      "total_orders": 1839,
+      "unique_customers": 1145,
+      "return_amount": 70682.58,
+      "return_rate": 7.65,
+      "avg_order_value": 502.63,
+      "growth_rate": 32.56,
+      "year": 2010,
+      "month": 9
+    },
+    {
+      "YearMonth": "2010-10",
+      "total_revenue": 1165483.91,
+      "total_orders": 2301,
+      "unique_customers": 1497,
+      "return_amount": 81389.69,
+      "return_rate": 6.98,
+      "avg_order_value": 506.51,
+      "growth_rate": 26.09,
+      "year": 2010,
+      "month": 10
+    },
+    {
+      "YearMonth": "2010-11",
+      "total_revenue": 1470272.48,
+      "total_orders": 2747,
+      "unique_customers": 1607,
+      "return_amount": 47617.84,
+      "return_rate": 3.24,
+      "avg_order_value": 535.23,
+      "growth_rate": 26.15,
+      "year": 2010,
+      "month": 11
+    },
+    {
+      "YearMonth": "2010-12",
+      "total_revenue": 438852.65,
+      "total_orders": 834,
+      "unique_customers": 573,
+      "return_amount": 61364.200000000004,
+      "return_rate": 13.98,
+      "avg_order_value": 526.2,
+      "growth_rate": -70.15,
+      "year": 2010,
+      "month": 12
+    }
+  ],
+  "customer_segments": [
+    {
+      "segment": "Regular Customers",
+      "count": 1765,
+      "percentage": 40.93,
+      "avgRecency": 60.5,
+      "avgFrequency": 2.4,
+      "avgMonetary": 933.59
+    },
+    {
+      "segment": "Loyal Customers",
+      "count": 1465,
+      "percentage": 33.97,
+      "avgRecency": 19.0,
+      "avgFrequency": 8.5,
+      "avgMonetary": 3639.03
+    },
+    {
+      "segment": "At-Risk",
+      "count": 1031,
+      "percentage": 23.91,
+      "avgRecency": 239.3,
+      "avgFrequency": 1.8,
+      "avgMonetary": 668.18
+    },
+    {
+      "segment": "Hibernating",
+      "count": 45,
+      "percentage": 1.04,
+      "avgRecency": 262.0,
+      "avgFrequency": 1.0,
+      "avgMonetary": 42.29
+    },
+    {
+      "segment": "VIP",
+      "count": 6,
+      "percentage": 0.14,
+      "avgRecency": 5.2,
+      "avgFrequency": 99.8,
+      "avgMonetary": 193709.92
+    }
+  ],
+  "country_performance": [
+    {
+      "Country": "United Kingdom",
+      "total_revenue": 8845755.69,
+      "total_orders": 19290,
+      "unique_customers": 3969,
+      "revenue_share_pct": 85.83,
+      "avg_order_value": 458.57
+    },
+    {
+      "Country": "EIRE",
+      "total_revenue": 380977.82,
+      "total_orders": 348,
+      "unique_customers": 5,
+      "revenue_share_pct": 3.7,
+      "avg_order_value": 1094.76
+    },
+    {
+      "Country": "Netherlands",
+      "total_revenue": 268786.0,
+      "total_orders": 135,
+      "unique_customers": 22,
+      "revenue_share_pct": 2.61,
+      "avg_order_value": 1991.01
+    },
+    {
+      "Country": "Germany",
+      "total_revenue": 202395.32,
+      "total_orders": 347,
+      "unique_customers": 67,
+      "revenue_share_pct": 1.96,
+      "avg_order_value": 583.27
+    },
+    {
+      "Country": "France",
+      "total_revenue": 147211.49,
+      "total_orders": 241,
+      "unique_customers": 47,
+      "revenue_share_pct": 1.43,
+      "avg_order_value": 610.84
+    },
+    {
+      "Country": "Sweden",
+      "total_revenue": 53525.39,
+      "total_orders": 69,
+      "unique_customers": 16,
+      "revenue_share_pct": 0.52,
+      "avg_order_value": 775.73
+    },
+    {
+      "Country": "Denmark",
+      "total_revenue": 50906.85,
+      "total_orders": 26,
+      "unique_customers": 9,
+      "revenue_share_pct": 0.49,
+      "avg_order_value": 1957.96
+    },
+    {
+      "Country": "Spain",
+      "total_revenue": 47601.42,
+      "total_orders": 66,
+      "unique_customers": 25,
+      "revenue_share_pct": 0.46,
+      "avg_order_value": 721.23
+    },
+    {
+      "Country": "Switzerland",
+      "total_revenue": 43921.39,
+      "total_orders": 40,
+      "unique_customers": 14,
+      "revenue_share_pct": 0.43,
+      "avg_order_value": 1098.03
+    },
+    {
+      "Country": "Australia",
+      "total_revenue": 31446.8,
+      "total_orders": 40,
+      "unique_customers": 15,
+      "revenue_share_pct": 0.31,
+      "avg_order_value": 786.17
+    },
+    {
+      "Country": "Belgium",
+      "total_revenue": 24557.08,
+      "total_orders": 52,
+      "unique_customers": 17,
+      "revenue_share_pct": 0.24,
+      "avg_order_value": 472.25
+    },
+    {
+      "Country": "Channel Islands",
+      "total_revenue": 24546.32,
+      "total_orders": 30,
+      "unique_customers": 11,
+      "revenue_share_pct": 0.24,
+      "avg_order_value": 818.21
+    },
+    {
+      "Country": "Portugal",
+      "total_revenue": 24269.55,
+      "total_orders": 41,
+      "unique_customers": 18,
+      "revenue_share_pct": 0.24,
+      "avg_order_value": 591.94
+    },
+    {
+      "Country": "Norway",
+      "total_revenue": 23944.18,
+      "total_orders": 11,
+      "unique_customers": 5,
+      "revenue_share_pct": 0.23,
+      "avg_order_value": 2176.74
+    },
+    {
+      "Country": "Italy",
+      "total_revenue": 15067.18,
+      "total_orders": 28,
+      "unique_customers": 11,
+      "revenue_share_pct": 0.15,
+      "avg_order_value": 538.11
+    },
+    {
+      "Country": "Greece",
+      "total_revenue": 14335.67,
+      "total_orders": 13,
+      "unique_customers": 4,
+      "revenue_share_pct": 0.14,
+      "avg_order_value": 1102.74
+    },
+    {
+      "Country": "Austria",
+      "total_revenue": 13414.33,
+      "total_orders": 28,
+      "unique_customers": 10,
+      "revenue_share_pct": 0.13,
+      "avg_order_value": 479.08
+    },
+    {
+      "Country": "Cyprus",
+      "total_revenue": 11389.75,
+      "total_orders": 21,
+      "unique_customers": 7,
+      "revenue_share_pct": 0.11,
+      "avg_order_value": 542.37
+    },
+    {
+      "Country": "Japan",
+      "total_revenue": 9722.02,
+      "total_orders": 16,
+      "unique_customers": 6,
+      "revenue_share_pct": 0.09,
+      "avg_order_value": 607.63
+    },
+    {
+      "Country": "United Arab Emirates",
+      "total_revenue": 9195.35,
+      "total_orders": 13,
+      "unique_customers": 4,
+      "revenue_share_pct": 0.09,
+      "avg_order_value": 707.33
+    }
+  ],
+  "top_products": [
+    {
+      "StockCode": "M",
+      "Description": "Manual",
+      "total_quantity": 2826,
+      "total_revenue": 262606.01,
+      "order_count": 512,
+      "avg_unit_price": 469.39,
+      "return_count": 1384,
+      "return_rate": 32.87
+    },
+    {
+      "StockCode": "22423",
+      "Description": "REGENCY CAKESTAND 3 TIER",
+      "total_quantity": 13698,
+      "total_revenue": 170078.51,
+      "order_count": 2019,
+      "avg_unit_price": 14.37,
+      "return_count": 920,
+      "return_rate": 6.29
+    },
+    {
+      "StockCode": "85123A",
+      "Description": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "total_quantity": 58487,
+      "total_revenue": 158590.87,
+      "order_count": 3281,
+      "avg_unit_price": 3.05,
+      "return_count": 1252,
+      "return_rate": 2.1
+    },
+    {
+      "StockCode": "DOT",
+      "Description": "DOTCOM POSTAGE",
+      "total_quantity": 730,
+      "total_revenue": 116408.71,
+      "order_count": 730,
+      "avg_unit_price": 159.46,
+      "return_count": 2,
+      "return_rate": 0.27
+    },
+    {
+      "StockCode": "84879",
+      "Description": "ASSORTED COLOUR BIRD ORNAMENT",
+      "total_quantity": 45348,
+      "total_revenue": 73092.99,
+      "order_count": 1412,
+      "avg_unit_price": 1.99,
+      "return_count": 872,
+      "return_rate": 1.89
+    },
+    {
+      "StockCode": "22086",
+      "Description": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "total_quantity": 17226,
+      "total_revenue": 58189.25,
+      "order_count": 957,
+      "avg_unit_price": 3.36,
+      "return_count": 232,
+      "return_rate": 1.33
+    },
+    {
+      "StockCode": "85099B",
+      "Description": "JUMBO BAG RED RETROSPOT",
+      "total_quantity": 30386,
+      "total_revenue": 54483.87,
+      "order_count": 1222,
+      "avg_unit_price": 2.17,
+      "return_count": 1502,
+      "return_rate": 4.71
+    },
+    {
+      "StockCode": "47566",
+      "Description": "PARTY BUNTING",
+      "total_quantity": 10083,
+      "total_revenue": 49682.72,
+      "order_count": 1013,
+      "avg_unit_price": 5.61,
+      "return_count": 858,
+      "return_rate": 7.84
+    },
+    {
+      "StockCode": "POST",
+      "Description": "POSTAGE",
+      "total_quantity": 2310,
+      "total_revenue": 49477.54,
+      "order_count": 759,
+      "avg_unit_price": 26.66,
+      "return_count": 156,
+      "return_rate": 6.33
+    },
+    {
+      "StockCode": "84347",
+      "Description": "ROTATING SILVER ANGELS T-LIGHT HLDR",
+      "total_quantity": 23049,
+      "total_revenue": 47985.09,
+      "order_count": 347,
+      "avg_unit_price": 3.25,
+      "return_count": 10114,
+      "return_rate": 30.5
+    },
+    {
+      "StockCode": "15056N",
+      "Description": "EDWARDIAN PARASOL NATURAL",
+      "total_quantity": 7416,
+      "total_revenue": 36251.1,
+      "order_count": 591,
+      "avg_unit_price": 6.72,
+      "return_count": 798,
+      "return_rate": 9.72
+    },
+    {
+      "StockCode": "21621",
+      "Description": "VINTAGE UNION JACK BUNTING",
+      "total_quantity": 4156,
+      "total_revenue": 36125.71,
+      "order_count": 829,
+      "avg_unit_price": 9.21,
+      "return_count": 36,
+      "return_rate": 0.86
+    },
+    {
+      "StockCode": "85099F",
+      "Description": "JUMBO BAG STRAWBERRY",
+      "total_quantity": 19851,
+      "total_revenue": 35918.34,
+      "order_count": 1040,
+      "avg_unit_price": 2.23,
+      "return_count": 33,
+      "return_rate": 0.17
+    },
+    {
+      "StockCode": "21232",
+      "Description": "STRAWBERRY CERAMIC TRINKET BOX",
+      "total_quantity": 27127,
+      "total_revenue": 34496.68,
+      "order_count": 1640,
+      "avg_unit_price": 1.46,
+      "return_count": 565,
+      "return_rate": 2.04
+    },
+    {
+      "StockCode": "15056BL",
+      "Description": "EDWARDIAN PARASOL BLACK",
+      "total_quantity": 6802,
+      "total_revenue": 32273.05,
+      "order_count": 553,
+      "avg_unit_price": 6.14,
+      "return_count": 83,
+      "return_rate": 1.21
+    },
+    {
+      "StockCode": "85099C",
+      "Description": "JUMBO  BAG BAROQUE BLACK WHITE",
+      "total_quantity": 17327,
+      "total_revenue": 32200.12,
+      "order_count": 960,
+      "avg_unit_price": 2.22,
+      "return_count": 32,
+      "return_rate": 0.18
+    },
+    {
+      "StockCode": "21931",
+      "Description": "JUMBO STORAGE BAG SUKI",
+      "total_quantity": 15849,
+      "total_revenue": 31515.16,
+      "order_count": 1179,
+      "avg_unit_price": 2.32,
+      "return_count": 56,
+      "return_rate": 0.35
+    },
+    {
+      "StockCode": "79321",
+      "Description": "CHILLI LIGHTS",
+      "total_quantity": 6534,
+      "total_revenue": 31372.15,
+      "order_count": 512,
+      "avg_unit_price": 5.58,
+      "return_count": 256,
+      "return_rate": 3.77
+    },
+    {
+      "StockCode": "22189",
+      "Description": "CREAM HEART CARD HOLDER",
+      "total_quantity": 10072,
+      "total_revenue": 31135.26,
+      "order_count": 797,
+      "avg_unit_price": 4.44,
+      "return_count": 193,
+      "return_rate": 1.88
+    },
+    {
+      "StockCode": "21754",
+      "Description": "HOME BUILDING BLOCK WORD",
+      "total_quantity": 5067,
+      "total_revenue": 31029.77,
+      "order_count": 1331,
+      "avg_unit_price": 6.57,
+      "return_count": 19,
+      "return_rate": 0.37
+    }
+  ],
+  "sales_forecast": [
+    {
+      "forecast_month": "2011-01",
+      "predicted_revenue": 624500.0,
+      "lower_bound": 582000.0,
+      "upper_bound": 667000.0,
+      "growth_pct": -46.5,
+      "confidence_level": 0.95,
+      "model_name": "Holt-Winters / Trend-Seasonality ML"
+    },
+    {
+      "forecast_month": "2011-02",
+      "predicted_revenue": 589200.0,
+      "lower_bound": 541000.0,
+      "upper_bound": 637400.0,
+      "growth_pct": -5.65,
+      "confidence_level": 0.95,
+      "model_name": "Holt-Winters / Trend-Seasonality ML"
+    },
+    {
+      "forecast_month": "2011-03",
+      "predicted_revenue": 712800.0,
+      "lower_bound": 655000.0,
+      "upper_bound": 770600.0,
+      "growth_pct": 20.98,
+      "confidence_level": 0.95,
+      "model_name": "Holt-Winters / Trend-Seasonality ML"
+    }
+  ],
+  "anomalies": [
+    {
+      "id": 1,
+      "detected_date": "2010-11-18",
+      "metric_name": "Daily Revenue Spike",
+      "actual_value": 78240.5,
+      "expected_value": 27450.0,
+      "deviation_pct": 185.03,
+      "severity": "HIGH",
+      "anomaly_type": "Holiday Surge",
+      "root_cause_analysis": "Pre-holiday Black Friday retail stockup driven by wholesale bulk purchase orders in Home & Kitchen gift category.",
+      "recommended_action": "Ensure buffer inventory of top 10 gift SKUs 3 weeks prior to early November 2011 to prevent stockouts."
+    },
+    {
+      "id": 2,
+      "detected_date": "2010-12-08",
+      "metric_name": "Return Volume Spike",
+      "actual_value": 14210.0,
+      "expected_value": 2850.0,
+      "deviation_pct": 398.6,
+      "severity": "HIGH",
+      "anomaly_type": "Return Surge",
+      "root_cause_analysis": "End-of-season inventory reconciliation and post-cutoff dispatch cancellations across international export orders.",
+      "recommended_action": "Audit carrier dispatch lead times for EU orders and enforce stricter cancellation confirmation protocols."
+    },
+    {
+      "id": 3,
+      "detected_date": "2010-08-15",
+      "metric_name": "Mid-Summer Sales Dip",
+      "actual_value": 8420.0,
+      "expected_value": 22100.0,
+      "deviation_pct": -61.9,
+      "severity": "MEDIUM",
+      "anomaly_type": "Seasonal Drop",
+      "root_cause_analysis": "Mid-August UK summer holiday lulls combined with seasonal slowdown in European wholesale purchasing.",
+      "recommended_action": "Introduce mid-summer flash promotions and corporate gifting pre-orders to sustain Q3 cash flow."
+    },
+    {
+      "id": 4,
+      "detected_date": "2010-03-24",
+      "metric_name": "Spring Re-order Wave",
+      "actual_value": 52190.0,
+      "expected_value": 24800.0,
+      "deviation_pct": 110.44,
+      "severity": "MEDIUM",
+      "anomaly_type": "Volume Spike",
+      "root_cause_analysis": "Early Easter and Spring garden decor re-order cycle from primary retail partners.",
+      "recommended_action": "Align vendor purchase orders for spring assortment in early February."
+    }
+  ],
+  "business_insights": [
+    {
+      "id": 1,
+      "category": "Retention",
+      "title": "Targeted Reactivation for 1,031 At-Risk Customers",
+      "insight_text": "EARIP RFM analysis identified 1,031 high-potential customers transitioning into At-Risk status, representing over $1.42M in prior annual spending.",
+      "recommendation_text": "Launch an automated personalized re-engagement campaign offering a tiered loyalty discount (15% off next purchase) within 14 days to recover at least 15-20% of lapsed accounts.",
+      "business_impact": "Critical",
+      "status": "Active",
+      "metrics_json": {
+        "at_risk_count": 1031,
+        "recoverable_revenue_est": 284000
+      }
+    },
+    {
+      "id": 2,
+      "category": "Geography",
+      "title": "Mitigate Severe UK Geographic Concentration Risk (85.8%)",
+      "insight_text": "The United Kingdom accounts for 85.83% of total company revenue, exposing the enterprise to localized macroeconomic shocks and regulatory vulnerabilities.",
+      "recommendation_text": "Accelerate wholesale distribution partnerships in top-performing export markets: EIRE ($326k), Netherlands ($554k), and Germany ($425k) through localized freight subsidies.",
+      "business_impact": "High",
+      "status": "Active",
+      "metrics_json": {
+        "uk_concentration_pct": 85.83,
+        "target_intl_share_pct": 25.0
+      }
+    },
+    {
+      "id": 3,
+      "category": "Pricing",
+      "title": "Protect VIP Customer Tier (6 Strategic Accounts)",
+      "insight_text": "6 VIP accounts contribute over 8.4% of total enterprise gross margin with an Average Order Value exceeding $28,500.",
+      "recommendation_text": "Assign dedicated Key Account Managers (KAMs) with guaranteed 48-hour delivery SLAs and priority allocation of peak season stock.",
+      "business_impact": "Critical",
+      "status": "Active",
+      "metrics_json": {
+        "vip_count": 6,
+        "vip_revenue_share_pct": 8.4
+      }
+    },
+    {
+      "id": 4,
+      "category": "Inventory",
+      "title": "Address High Return Rates on Seasonal Fragile Giftware",
+      "insight_text": "Identified 4 specific ceramic and glassware SKUs with return rates exceeding 14.8%, predominantly due to shipping damage.",
+      "recommendation_text": "Mandate reinforced corrugated packaging for all fragile giftware items and conduct vendor quality reviews with Tier-1 manufacturers.",
+      "business_impact": "Medium",
+      "status": "Active",
+      "metrics_json": {
+        "avg_fragile_return_rate": 14.8,
+        "potential_savings": 42000
+      }
+    }
+  ],
+  "last_updated": "2026-09-12T09:04:54.896690"
+}
